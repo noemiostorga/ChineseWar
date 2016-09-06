@@ -6,7 +6,8 @@ body{
 	margin: 0px;
 	padding: 0px;
 	background-image: url("images/bg.png");
-	background-image: 100% 100%;
-
+	background-image: 50% 50%;
+	background-position: center;
+	background-size: cover;
 }
 
