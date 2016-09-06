@@ -18,7 +18,7 @@ body{
 	background-size: cover;
 	height:100vh;
 	width:100%;
-	position: relative;
+	position: static;
 	background-size: 100% 100%; 
 
 	
@@ -56,13 +56,15 @@ body{
 
 .mainAssets{
 	height: 300px;
-	width: 90%;
+	width: 95%;
 	position: absolute;
 	background: red;
 	margin: 0 auto;
-	display: inline-block;
+	right:0;
+	left: 0;
 }
 
 p{
 	color: blue;
+	
 }
