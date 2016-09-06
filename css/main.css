@@ -64,6 +64,38 @@ body{
 	left: 0;
 }
 
+.mainAssests > div{
+	margin: 0 auto;
+}
+
+.dragonContainer{
+	background: white;
+	width: 34%;
+	display: inline-block;
+	height: 100%;
+
+}
+
+.requestContainer{
+	background: blue;
+	width: 29%;
+	display: inline-block;
+	height: 100%;
+	float: center;
+	margin-left: 1%;
+}
+
+.tigerContainer{
+	background: green;
+	width: 34%;
+	display: inline-block;
+	height: 100%;
+	float: right;
+
+}
+
+
+
 p{
 	color: blue;
 	
