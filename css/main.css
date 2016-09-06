@@ -138,12 +138,17 @@ p{
 media queries
 **************/
 
-@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+@media screen and (min-device-width: 481px) and (max-device-width: 768px)and (orientation: portrait) { 
     .logo{
     	bottom: 55px;
     }
 }
 
+@media screen and (min-device-width: 320px) and (max-device-width: 414px)and (orientation: portrait) { 
+    .logo{
+    	bottom: 80px;
+    }
+}
 
 
 
