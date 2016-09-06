@@ -8,6 +8,11 @@ body{
 	background-image: url("images/bg.png");
 	background-image: 50% 50%;
 	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 }
+
+
 
