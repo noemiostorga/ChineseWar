@@ -1,9 +1,12 @@
-.container{
-	background-image: url("images/bg.svg");
-	height: 100%;
-	width: auto;
-	background-image: 100%;
-	margin: 0 auto;
+html{
+	height:100%;
+}
+
+body{
+	margin: 0px;
 	padding: 0px;
+	background-image: url("images/bg.png");
+	background-image: 100% 100%;
+
 }
 
