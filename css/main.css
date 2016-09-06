@@ -58,7 +58,6 @@ body{
 	height: 300px;
 	width: 95%;
 	position: absolute;
-	background: red;
 	margin: 0 auto;
 	right:0;
 	left: 0;
@@ -69,29 +68,49 @@ body{
 }
 
 .dragonContainer{
-	background: white;
-	width: 34%;
+	
+	width: 37%;
 	display: inline-block;
 	height: 100%;
 
 }
 
+.dragon{
+	background: url("../images/dragon.svg") no-repeat;
+	height: 100%;
+	width: 100%;
+	background-size: 100% 100%;
+}
+
 .requestContainer{
-	background: blue;
-	width: 29%;
+
+	width: 24%;
 	display: inline-block;
 	height: 100%;
 	float: center;
 	margin-left: 1%;
 }
 
+.request{
+	background: url("../images/request_info.svg");
+	height: 100%;
+	width: 100%;
+	background-size: 100% 100%;
+}
+
 .tigerContainer{
-	background: green;
-	width: 34%;
+
+	width: 36%;
 	display: inline-block;
 	height: 100%;
 	float: right;
+}
 
+.tiger{
+	background: url("../images/tiger.svg") no-repeat;
+	height: 100%;
+	width: 100%;
+	background-size: 100% 100%;
 }
 
 
