@@ -300,15 +300,27 @@ label{
 	color: rgb(100,255,171);
 }
 
-.infoInput label{
-	display: block;
-
+.infoInputContainer{
+	width: 90%;
+	margin: 25px auto;
+	background: red;
 }
 
 .info{
 	display: inline-block;
-	
+	margin-left: 5%;
+	width: 25%;
 }
+
+.info input {
+	width: 100%;
+}
+
+.infoInput label{
+	display: block;
+}
+
+
 
 
 
