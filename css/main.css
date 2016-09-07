@@ -298,7 +298,7 @@ form{
 .infoInputContainer{
 	width: 90%;
 	margin: 25px auto;
-	background: red;
+	
 }
 
 .infoContainer input {
@@ -346,9 +346,13 @@ form{
 }
 
 .bottomInfoContainer{
-
+	margin: 25px auto;
+	background: orange;
 }
 
+.bottomInfoContainer label{
+	display: block;
+}
 
 
 
