@@ -235,11 +235,14 @@ form{
  	border-top: 6px solid rgba(168,131,0,1);
  	border-bottom: 6px solid rgba(168,131,0,1);
  	border-style: ridge;
+ 	font-family: 'Vollkorn', serif;
  }
 
 .header{
 	text-align: center;
 	color: #FFEF6C;
+	font-size: 3em;
+	padding: 25px 0px;
 }
 
 /*.info{
