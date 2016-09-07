@@ -236,13 +236,21 @@ form{
  	border-bottom: 6px solid rgba(168,131,0,1);
  	border-style: ridge;
  	font-family: 'Vollkorn', serif;
+ 	font-weight: bold;
  }
 
 .header{
 	text-align: center;
 	color: #FFEF6C;
-	font-size: 3em;
-	padding: 25px 0px;
+	font-size: 2.7em;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	font-weight: bold;
+/*	text-shadow:
+	 -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;*/
 }
 
 /*.info{
@@ -251,6 +259,36 @@ form{
 	height: 1%;
 
 }*/
+
+.banner{
+	background: rgba(3,40,30,.6);
+	width: 100%;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+.banner input {
+	margin :0 auto;
+	width: 8%;
+}
+
+
+.infoContainer{
+	width: 60%;
+	margin: 0 auto;
+	background: red;
+	text-align: center;
+}
+
+.infoButton{
+	display: inline;
+}
+
+.infoContainer input {
+	margin-left: 10px;
+}
+
+
 
 
 
