@@ -308,7 +308,7 @@ form{
 }
 
 .infoInput{
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 	background: blue;
 }
@@ -331,10 +331,20 @@ form{
 	background: rgb(160,255,221);
 }
 
+.firstName{
+	width: 28%;
+}
+
 .lastName{
 	padding-left: 5%;
 	padding-right: 5%;
+	width: 28%;
 }
+
+.email{
+	width: 32%;
+}
+
 .bottomInfoContainer{
 
 }
