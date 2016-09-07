@@ -329,6 +329,7 @@ form{
 .info input {
 	width: 100%;
 	background: rgb(160,255,221);
+	border-radius: 5px;
 }
 
 .firstName{
@@ -355,23 +356,31 @@ form{
 
 .commentContainer{ 
     width: 60%;
-    height: 30px;
-    background: red;
+    height: 200px;
+    background: blue;
+    float: left;
 }
 
-.bottomInfoContainer label{
+
+.commentContainer label{
 	display: block;
+	display: block;
+	font-family: 'Vollkorn', serif;
+	font-size: 1.7em;
+	color: rgb(100,255,171);
 }
 
 textarea{
-	width: 100%;
-	display: inline-block;
+	width: 98%;
+	height: 70%;
+	border-radius: 5px;
 }
 
 .logoNsubmit{
 	width: 40%;
 	background: red;
 	height: 20px;
+	float: right;
 }
 
 
