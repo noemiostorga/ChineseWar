@@ -348,10 +348,30 @@ form{
 .bottomInfoContainer{
 	margin: 25px auto;
 	background: orange;
+	width: 90%;
+	height: 40px;
+
+}
+
+.commentContainer{ 
+    width: 60%;
+    height: 30px;
+    background: red;
 }
 
 .bottomInfoContainer label{
 	display: block;
+}
+
+textarea{
+	width: 100%;
+	display: inline-block;
+}
+
+.logoNsubmit{
+	width: 40%;
+	background: red;
+	height: 20px;
 }
 
 
