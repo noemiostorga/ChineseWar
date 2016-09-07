@@ -217,7 +217,7 @@ form{
 
 
 .formContainer{
-    height: 80%;
+    min-height: 80%;
     width: 80%;
     margin: 0 auto;
     background-image: linear-gradient(to bottom, #000 , #0d7865, #0d7078);
@@ -287,18 +287,13 @@ form{
     padding-right: 7%;
 }
 
-.infoContainer input {
-	margin-left: 10px;
-	border: none;
-	background: rgb(160,255,221);
-}
-
-label{
+.infoButton label{
 	padding-left: 5px;
 	font-family: 'Vollkorn', serif;
-	font-size: 1.3em;
+	font-size: 1.5em;
 	color: rgb(100,255,171);
 }
+
 
 .infoInputContainer{
 	width: 90%;
@@ -306,18 +301,42 @@ label{
 	background: red;
 }
 
+.infoContainer input {
+	margin-left: 10px;
+	border: none;
+	background: rgb(160,255,221);
+}
+
+.infoInput{
+	width: 80%;
+	margin: 0 auto;
+	background: blue;
+}
+
+
 .info{
 	display: inline-block;
-	margin-left: 5%;
 	width: 25%;
+}
+
+.info label{
+	display: block;
+	font-family: 'Vollkorn', serif;
+	font-size: 1.7em;
+	color: rgb(100,255,171);
 }
 
 .info input {
 	width: 100%;
+	background: rgb(160,255,221);
 }
 
-.infoInput label{
-	display: block;
+.lastName{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.bottomInfoContainer{
+
 }
 
 
