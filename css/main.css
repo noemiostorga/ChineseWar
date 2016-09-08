@@ -414,7 +414,13 @@ media queries
 		font-size: 1.7em;
 	/*	background: red;*/
 	}
+
+	.infoButton{
+		display: block;
+		text-align: left;
+	}
 }
+
 
 
 
