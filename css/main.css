@@ -134,34 +134,6 @@ p{
 }
 
 
-/*************
-media queries
-**************/
-
-@media screen and (min-device-width: 481px) and (max-device-width: 768px)and (orientation: portrait) { 
-    .logo{
-    	bottom: 55px;
-    }
-}
-
-@media screen and (min-device-width: 320px) and (max-device-width: 414px)and (orientation: portrait) { 
-    .logo{
-    	bottom: 80px;
-    }
-}
-
-
-
-
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { 
-	form{
-		/*background: blue;*/
-	}
-
-}
-
-/*actual form */
-
 
 /***********
 Form 
@@ -410,6 +382,39 @@ textarea{
 	margin: 0 auto;
 }
 
+/*************
+media queries
+**************/
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px)and (orientation: portrait) { 
+    .logo{
+    	bottom: 55px;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 414px)and (orientation: portrait) { 
+    .logo{
+    	bottom: 80px;
+    }
+}
+
+
+
+
+/*@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { 
+	form{
+		background: blue;
+	}
+
+}*/
+
+/*actual form */
+@media screen and (min-width:400px) and (max-width: 790px)  {
+	.header{
+		font-size: 1.7em;
+	/*	background: red;*/
+	}
+}
 
 
 
