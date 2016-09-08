@@ -425,6 +425,15 @@ media queries
 
 
 
+@media screen and (min-width:789px) and (max-width: 1136px)  {
+
+	.infoButton{
+/*		display: block;*/
+			display: inline;
+	/*padding-left: 40px;*/
+    padding-right: 7%;
+	}
+}
 
 
 
