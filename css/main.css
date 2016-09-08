@@ -349,7 +349,6 @@ form{
 
 .bottomInfoContainer{
 	margin: 25px auto;
-	background: orange;
 	width: 90%;
 	min-height: 40px;
 
@@ -383,7 +382,7 @@ textarea{
 .logoNsubmit{
 	width: 33%;
 	display: inline;
-	background: brown;
+/*	background: brown;*/
 	min-height: 30px;
 	float: right;
 	
@@ -393,15 +392,15 @@ textarea{
     background: url("../images/logo.svg");
     height: 104px;
     width: 100%;
-    margin: 45px auto;
+    margin: 45px auto 20px;
     background-size: 100% 100%;
 }
 
 .submitBtn {
 	background: url("../images/submit.svg");
 	background-size: 100% 100%;
-	height: 80px;
-	width: 30%;
+    height: 80px;
+    width: 85%;
 	margin: 0 auto;
 }
 
