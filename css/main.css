@@ -392,7 +392,7 @@ textarea{
 .buttonLogo{
     background: url("../images/logo.svg");
     height: 104px;
-    width: 16.5em;
+    width: 100%;
     margin: 45px auto;
     background-size: 100% 100%;
 }
