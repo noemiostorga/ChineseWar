@@ -310,7 +310,7 @@ form{
 .infoInput{
 	width: 100%;
 	margin: 0 auto;
-	background: blue;
+	
 }
 
 
@@ -330,6 +330,7 @@ form{
 	width: 100%;
 	background: rgb(160,255,221);
 	border-radius: 5px;
+
 }
 
 .firstName{
@@ -350,15 +351,16 @@ form{
 	margin: 25px auto;
 	background: orange;
 	width: 90%;
-	height: 40px;
+	min-height: 40px;
 
 }
 
 .commentContainer{ 
     width: 60%;
     height: 200px;
-    background: blue;
+   /* background: blue;*/
     float: left;
+    display: inline;
 }
 
 
@@ -376,12 +378,37 @@ textarea{
 	border-radius: 5px;
 }
 
+
+
 .logoNsubmit{
 	width: 40%;
-	background: red;
-	height: 20px;
+	display: inline;
+	background: brown;
+	min-height: 60px;
 	float: right;
+
 }
+
+.buttonLogo{
+	background: url("../images/logo.svg");
+	height: 100px;
+	width: 100px;
+	background-size: 100% 100%;
+	/*float: right;*/
+/*	display: block;*/
+	/*background: green; */
+}
+
+.submitBtn {
+	background: url("../images/submit.svg");
+	background-size: 100% 100%;
+	height: 30px;
+	width: 30%;
+	/*float: right;*/
+/*	display: block;*/
+	/*background: pink;*/
+}
+
 
 
 
