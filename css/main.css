@@ -384,19 +384,18 @@ textarea{
 	width: 40%;
 	display: inline;
 	background: brown;
-	min-height: 60px;
+	min-height: 30px;
 	float: right;
-
+	
 }
 
 .buttonLogo{
-	background: url("../images/logo.svg");
-	height: 100px;
-	width: 100px;
-	background-size: 100% 100%;
-	/*float: right;*/
-/*	display: block;*/
-	/*background: green; */
+    background: url("../images/logo.svg");
+    height: 104px;
+    width: 16.5em;
+    margin: 0 auto;
+    background-size: 100% 100%;
+    float: right;
 }
 
 .submitBtn {
