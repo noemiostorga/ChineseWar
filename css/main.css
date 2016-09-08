@@ -330,7 +330,7 @@ form{
 	width: 100%;
 	background: rgb(160,255,221);
 	border-radius: 5px;
-
+	height: 30px;
 }
 
 .firstName{
@@ -374,14 +374,14 @@ form{
 
 textarea{
 	width: 98%;
-	height: 70%;
+	height: 85%;
 	border-radius: 5px;
 }
 
 
 
 .logoNsubmit{
-	width: 40%;
+	width: 33%;
 	display: inline;
 	background: brown;
 	min-height: 30px;
@@ -393,9 +393,8 @@ textarea{
     background: url("../images/logo.svg");
     height: 104px;
     width: 16.5em;
-    margin: 0 auto;
+    margin: 45px auto;
     background-size: 100% 100%;
-    float: right;
 }
 
 .submitBtn {
@@ -403,6 +402,7 @@ textarea{
 	background-size: 100% 100%;
 	height: 30px;
 	width: 30%;
+	margin: 0 auto;
 	/*float: right;*/
 /*	display: block;*/
 	/*background: pink;*/
