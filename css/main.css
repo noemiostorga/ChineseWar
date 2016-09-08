@@ -444,6 +444,10 @@ media queries
 		display: block;
 		text-align: left;
 	}
+
+	.info2{
+		display: block;
+	}
 }
 
 
