@@ -439,7 +439,11 @@ media queries
 		font-size: 1.7em;
 	/*	background: red;*/
 	}
-
+	
+	.infoInputContainer{
+		margin: 0px auto;
+	}
+	
 	.infoButton{
 		display: block;
 		text-align: left;
@@ -447,6 +451,21 @@ media queries
 
 	.info2{
 		display: block;
+		width: 100%;
+	}
+	
+	.info2 input{
+		height: 18px;
+	}
+
+	.info2 label{
+		text-align: center;
+		font-size: 1.3em;
+	}
+
+	.lastName{
+		padding-left: 0%;
+		padding-right: 0%;
 	}
 }
 
