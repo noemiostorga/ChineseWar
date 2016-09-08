@@ -217,7 +217,7 @@ form{
 
 
 .formContainer{
-    min-height: 80%;
+    height: 80%;
     width: 80%;
     margin: 0 auto;
     background-image: linear-gradient(to bottom, #000 , #0d7865, #0d7078);
@@ -267,10 +267,10 @@ form{
 }
 
 .banner input {
-	margin :0 auto;
-	width: 3%;
-	height: 5%;
-	border-radius: 5px;
+    margin: 0 auto;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
 }
 
 
@@ -288,10 +288,12 @@ form{
 }
 
 .infoButton label{
-	padding-left: 5px;
-	font-family: 'Vollkorn', serif;
-	font-size: 1.5em;
-	color: rgb(100,255,171);
+    padding-left: 5px;
+    font-family: 'Vollkorn', serif;
+    font-size: 1.3em;
+    color: rgb(100,255,171);
+    top: 2px;
+    position: relative;
 }
 
 
@@ -375,6 +377,8 @@ textarea{
 	width: 98%;
 	height: 85%;
 	border-radius: 5px;
+	background: rgb(160,255,221);
+
 }
 
 
