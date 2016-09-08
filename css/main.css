@@ -309,6 +309,31 @@ form{
 	border: none;
 }
 
+
+
+.info2{
+	display: inline-block;
+	width: 25%;
+}
+
+.info2 label{
+	display: block;
+	font-family: 'Vollkorn', serif;
+	font-size: 1.7em;
+	color: rgb(100,255,171);
+}
+
+.info2 input {
+	width: 100%;
+	background: rgb(160,255,221);
+	border-radius: 5px;
+	height: 30px;
+	border: none;
+}
+
+
+
+
 .firstName{
 	width: 28%;
 }
