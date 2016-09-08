@@ -467,6 +467,25 @@ media queries
 		padding-left: 0%;
 		padding-right: 0%;
 	}
+
+	
+	.buttonLogo{
+		margin: 0px;
+	}
+
+	.submitBtn {
+	    height: 70px;
+	}
+
+	.commentContainer{
+		height: 100px;
+	}
+	
+	.commentContainer label{
+		font-size: 1.3em;
+	}
+
+
 }
 
 
