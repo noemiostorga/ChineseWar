@@ -424,20 +424,10 @@ media queries
 }
 
 
-
-
-/*@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { 
-	form{
-		background: blue;
-	}
-
-}*/
-
 /*actual form */
 @media screen and (min-width:400px) and (max-width: 790px)  {
 	.header{
 		font-size: 1.7em;
-	/*	background: red;*/
 	}
 	
 	.infoInputContainer{
@@ -484,6 +474,10 @@ media queries
 	.commentContainer label{
 		font-size: 1.3em;
 	}
+	
+/*	.submitBtn{
+		margin: -25px auto;
+	}*/
 
 
 }
@@ -495,10 +489,8 @@ media queries
 @media screen and (min-width:789px) and (max-width: 1136px)  {
 
 	.infoButton{
-/*		display: block;*/
-			display: inline;
-	/*padding-left: 40px;*/
-    padding-right: 7%;
+		display: inline;
+    	padding-right: 7%;
 	}
 }
 
