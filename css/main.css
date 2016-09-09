@@ -502,14 +502,12 @@ media queries
 }
 
 
-
 @media screen and (min-width:789px) and (max-width: 1136px)  {
 
 	.infoButton{
 		display: inline;
     	padding-right: 7%;
 	}
-}
 
 /*iphone 6+ landscape*/
 
@@ -535,6 +533,17 @@ media queries
 	}
 }
 
+/*iphone6  portrait*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { 
+	.formContainer{
+		transform: translateY(-150%);
+	}
+}
+
+
+
+}
+
 /*nexus 5x */
 
 @media only screen and (min-device-width: 732px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
@@ -547,7 +556,7 @@ media queries
 	}
 }
 
-/* latops */
+/* ipad */
 
 
 @media screen and (min-width:1024px) {
