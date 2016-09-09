@@ -189,7 +189,7 @@ form{
 
 
 .formContainer{
-    height: 80%;
+   /* height: 80%;*/
     width: 80%;
     margin: 0 auto;
     background-image: linear-gradient(to bottom, #000 , #0d7865, #0d7078);
@@ -352,7 +352,6 @@ form{
 	margin: 25px auto;
 	width: 90%;
 	min-height: 40px;
-
 }
 
 .commentContainer{ 
@@ -504,8 +503,6 @@ media queries
 
 
 
-
-
 @media screen and (min-width:789px) and (max-width: 1136px)  {
 
 	.infoButton{
@@ -514,6 +511,15 @@ media queries
 	}
 }
 
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+	.header{
+		padding-top: 20px;
+		padding-bottom: 0px;
+	}
+	.formContainer{
+		transform: translateY(3%);
+	}
+}
 
 
 
