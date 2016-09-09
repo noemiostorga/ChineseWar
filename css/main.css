@@ -403,8 +403,11 @@ textarea{
 	background: url("../images/submit.svg");
 	background-size: 100% 100%;
     height: 80px;
-    width: 85%;
+    width: 100%;
 	margin: 0 auto;
+	padding: 0px;
+	border: none;
+
 }
 
 /*************
@@ -425,6 +428,23 @@ media queries
 
 
 /*actual form */
+
+@media only screen and (min-width:400px) and (max-width:600px){
+		.submitBtn{
+			margin: -40px auto;
+		}
+
+    }
+
+@media only screen and (min-width:510px) and (max-width:600px){
+		.submitBtn{
+			margin: -30px auto;
+		}
+		
+    }
+  
+
+
 @media screen and (min-width:400px) and (max-width: 790px)  {
 	.header{
 		font-size: 1.7em;
@@ -464,7 +484,7 @@ media queries
 	}
 
 	.submitBtn {
-	    height: 70px;
+	    height: 35px;
 	}
 
 	.commentContainer{
