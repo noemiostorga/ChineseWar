@@ -492,9 +492,16 @@ media queries
 		.commentContainer{
 			width: 100%;
 		}
-			.logoNsubmit{
-		width: 100%;
-	}
+		.logoNsubmit{
+			width: 100%;
+		}
+		.buttonLogo{
+			visibility: hidden;
+		}
+		.commentContainer label{
+			text-align: center;
+		
+		}
 
     }
 
@@ -546,7 +553,9 @@ media queries
 	}
 
 	.submitBtn {
-	    height: 35px;
+	    height: 50px;
+    	/*top: 10px;
+    	margin: 25px auto;*/
 	}
 
 	.commentContainer{
@@ -555,6 +564,7 @@ media queries
 	
 	.commentContainer label{
 		font-size: 1.3em;
+
 	}
 
 	.bottomInfoContainer{
