@@ -405,6 +405,16 @@ textarea{
 	
 }
 
+button{
+	outline: none;
+	position: relative;
+	transition:1s ease;
+}
+
+button:active{
+	top: 5px;
+}
+
 .buttonLogo{
     background: url("../images/logo.svg");
     height: 104px;
@@ -479,10 +489,13 @@ media queries
 		.submitBtn{
 			margin: -40px auto;
 		}
+		.commentContainer{
+			width: 100%;
+		}
 
     }
 
-@media screen and (min-width:400px) and (max-width: 790px)  {
+@media screen and (min-width:400px) and (max-width: 793px)  {
 	.header{
 		font-size: 1.7em;
 	}
@@ -499,15 +512,20 @@ media queries
 	.info2{
 		display: block;
 		width: 100%;
+		margin-top: 15px;
 	}
 	
 	.info2 input{
-		height: 18px;
+		height: 35px;
 	}
 
 	.info2 label{
 		text-align: center;
 		font-size: 1.3em;
+	}
+
+	.infoButon label{
+		font-size: 1.2em;
 	}
 
 	.lastName{
@@ -531,7 +549,14 @@ media queries
 	.commentContainer label{
 		font-size: 1.3em;
 	}
-	
+
+	.bottomInfoContainer{
+		margin: 5px auto;
+	}
+
+	.logoNsubmit{
+		width: 100%;
+	}
 /*	.submitBtn{
 		margin: -25px auto;
 	}*/
