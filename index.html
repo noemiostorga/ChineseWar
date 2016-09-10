@@ -5,6 +5,7 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+	<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -68,18 +69,24 @@
 			<div class="infoContainer">
 
 				<div class="infoButton">
-					<div class="info" name="gameplay" id="gameplay"></div>
+					<div class="info" data-type="gameplay" id="gameplay">
+						<i class="fa fa-check hidden" aria-hidden="true"></i>
+					</div>
 					<label for="gameplay" >GAMEPLAY</label>
 				</div>
 
 
 				<div class="infoButton">
-					<div class="info" id="placement"></div>
+					<div class="info" id="placement" data-type="placement" >
+						<i class="fa fa-check hidden" aria-hidden="true"></i>
+					</div>
 					<label for="placement" >PLACEMENT</label>
 				</div>
 
 				<div class="infoButton">
-					<div class="info" id="other"></div>
+					<div class="info" id="other" data-type="other" >
+						<i class="fa fa-check hidden" aria-hidden="true"></i>
+					</div>
 					<label for="other" >OTHER</label>
 				</div>
 
@@ -104,8 +111,8 @@
 					<label for="email"> EMAIL</label>
 					<input id="email" name="_replyto"/>
 				</div>
-
-		<!-- 		<input id="email"> -->
+ 
+				<input class="hidden-input hidden" name="interested-in">
 
 			</div>
 		</div>
@@ -136,6 +143,7 @@
 
 
 
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src='main.js'></script>
 </body>
 </html>

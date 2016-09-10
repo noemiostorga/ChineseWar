@@ -4,6 +4,10 @@ body{
 	padding: 0px;
 }
 
+.hidden{
+	visibility: hidden;
+}
+
 /******************
 Container
 ****************/
@@ -471,15 +475,6 @@ media queries
 
     }
 
-@media only screen and (min-width:510px) and (max-width:600px){
-		.submitBtn{
-			margin: -30px auto;
-		}
-		
-    }
-  
-
-
 @media screen and (min-width:400px) and (max-width: 790px)  {
 	.header{
 		font-size: 1.7em;
@@ -536,6 +531,24 @@ media queries
 
 
 }
+
+
+@media screen and (min-width:400px) and (max-width: 1440px){
+	transform: translate(100%);
+} 
+
+
+
+@media only screen and (min-width:510px) and (max-width:600px){
+		.submitBtn{
+			margin: -30px auto;
+		}
+		
+    }
+  
+
+
+
 
 
 @media screen and (min-width:789px) and (max-width: 1136px)  {
@@ -605,8 +618,8 @@ media queries
 		padding-top: 20px;
 		padding-bottom: 0px;
 	}
-	.formContainer{
+/*	.formContainer{
 		transform: translateY(-15%);
-	}
+	}*/
 }
 
