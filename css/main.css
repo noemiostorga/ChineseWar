@@ -423,6 +423,22 @@ media queries
     .logo{
     	bottom: 80px;
     }
+
+    .info2{
+    	width: 100%;
+    }
+
+    .lastName{
+    	padding: 0px;
+    }
+    .commentContainer{
+    	width: 100%;
+    }
+
+    .formContainer{
+    	transform: translateY(-50%);
+    	min-height: 40%;
+    }
 }
 
 
@@ -511,15 +527,9 @@ media queries
 
 /*iphone 6+ landscape*/
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3)  and (orientation: landscape) { 
-	.header{
-		padding-top: 20px;
-		padding-bottom: 0px;
-	}
-	.formContainer{
-		transform: translateY(3%);
-	}
-}
+/*@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3)  and (orientation: landscape) { 
+
+}*/
 
 /*iphone 6 landscape*/
 
@@ -536,13 +546,17 @@ media queries
 /*iphone6  portrait*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { 
 	.formContainer{
-		transform: translateY(-150%);
+		transform: translateY(-50%);
+	}
+	.header{
+		padding-top: 20px;
+		padding-bottom: 0px;
 	}
 }
 
 
 
-}
+
 
 /*nexus 5x */
 
