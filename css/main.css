@@ -492,10 +492,17 @@ media queries
 		.commentContainer{
 			width: 100%;
 		}
+			.logoNsubmit{
+		width: 100%;
+	}
 
     }
 
 @media screen and (min-width:400px) and (max-width: 793px)  {
+	.fa{
+		padding-left: 7px;
+	}
+
 	.header{
 		font-size: 1.7em;
 	}
@@ -554,9 +561,7 @@ media queries
 		margin: 5px auto;
 	}
 
-	.logoNsubmit{
-		width: 100%;
-	}
+
 /*	.submitBtn{
 		margin: -25px auto;
 	}*/
