@@ -421,13 +421,14 @@ media queries
 
 @media screen and (min-device-width: 320px) and (max-device-width: 414px)and (orientation: portrait) { 
 	.formContainer{
-    	transform: translateY(-50%);
+    	transform: translateY(-20%);
     	min-height: 40%;
     	width: 99%;
     }
 
     .header{
     	font-size: 5em;
+
     }
 
     .logo{
@@ -438,11 +439,19 @@ media queries
     	width: 100%;
     }
 
+    .info2{
+    	font-size: 2.5em;
+    }
+
     .lastName{
     	padding: 0px;
     }
     .commentContainer{
     	width: 100%;
+    }
+
+    .commentContainer label{
+    	font-size: 2.5em;
     }
 
 
