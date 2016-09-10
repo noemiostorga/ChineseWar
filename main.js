@@ -29,7 +29,13 @@ $(document).ready(function(){
 			$('.hidden-input').val(input_value);
 			$('.submitBtn').submit();		
 		} 
-		
-		
-	})
+	});
+
+	$('.requestContainer').on('click', function(){
+		$('.formContainer').show();
+	});
+
+	$('.exit').on('click', function(){
+		$('.formContainer').hide()
+	});
 });

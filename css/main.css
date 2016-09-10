@@ -8,7 +8,7 @@ body{
 	visibility: hidden;
 }
 
-.fa {
+.fa-check {
     top: 5px;
     position: relative;
 }
@@ -98,7 +98,6 @@ Main images
 }
 
 .requestContainer{
-
 	width: 24%;
 	display: inline-block;
 	height: 100%;
@@ -199,6 +198,7 @@ form{
 
 .formContainer{
    /* height: 80%;*/
+   display: none;
     width: 80%;
     margin: 0 auto;
     background-image: linear-gradient(to bottom, #000 , #0d7865, #0d7078);
@@ -218,6 +218,22 @@ form{
  	font-family: 'Vollkorn', serif;
  	font-weight: bold;
  }
+
+
+.exit{
+    font-size: 2.5em;
+    /* background: blue; */
+    width: 5%;
+    text-align: center;
+    float: right;
+}
+
+.fa-times{
+	color: #EAC117;
+}
+
+
+
 
 .header{
 	text-align: center;
@@ -485,28 +501,9 @@ media queries
 
 /*actual form */
 
-@media only screen and (min-width:400px) and (max-width:600px){
-		.submitBtn{
-			margin: -40px auto;
-		}
-		.commentContainer{
-			width: 100%;
-		}
-		.logoNsubmit{
-			width: 100%;
-		}
-		.buttonLogo{
-			visibility: hidden;
-		}
-		.commentContainer label{
-			text-align: center;
-		
-		}
-
-    }
 
 @media screen and (min-width:400px) and (max-width: 793px)  {
-	.fa{
+	.fa-check{
 		padding-left: 7px;
 	}
 
@@ -580,9 +577,36 @@ media queries
 }
 
 
-@media screen and (min-width:400px) and (max-width: 1440px){
-	transform: translate(100%);
-} 
+
+@media only screen and (min-width:400px) and (max-width:600px){
+		.header{
+		font-size: 1.6em;
+	}
+		.submitBtn{
+			margin: -40px auto;
+		}
+		.commentContainer{
+			width: 100%;
+		}
+		.logoNsubmit{
+			width: 100%;
+		}
+		.buttonLogo{
+			visibility: hidden;
+		}
+		.commentContainer label{
+			text-align: center;
+		
+		}
+
+    }
+/*@media screen and (min-width:400px) and (max-width: 1440px){
+	.forncContainer{
+		transform: translate(100%);
+		font-size: 1.6em;
+	}
+
+} */
 
 
 
@@ -598,19 +622,39 @@ media queries
 
 
 
+
+
 @media screen and (min-width:789px) and (max-width: 1136px)  {
 
 	.infoButton{
 		display: inline;
     	padding-right: 7%;
+
 	}
 
+}
+
+
+
+
+/*iphone5 portrait*/
+
+/*@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+
+    .infoButton{
+		display: block;
+	    padding-right: 7%;
+	    text-align: left;
+	}
+}
+*/
 /*iphone 6+ landscape*/
-
-/*@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3)  and (orientation: landscape) { 
-
-}*/
-
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) { 
@@ -628,17 +672,75 @@ media queries
 	.formContainer{
 		transform: translateY(3%);
 	}
+
 }
 
 /*iphone6  portrait*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { 
 	.formContainer{
-		transform: translateY(-50%);
+		transform: translateY(-1%);
 	}
 	.header{
 		padding-top: 20px;
 		padding-bottom: 0px;
+		font-size: 3.9em;
 	}
+
+	.info {
+		 bottom: 45px;
+		 height: 60px;
+    	width: 60px;
+	}
+
+	.info label{
+		text-align: center;
+	}
+
+	.infoButton{	
+		display: block;
+	    padding-right: 7%;
+	    text-align: left;
+	}
+
+	.infoButton label{
+		font-size: 4em;
+	
+	}
+
+	.info2{
+		margin-top: 35px;
+	}
+
+	.info2 label {
+    	text-align: center;
+	}	
+
+	.info2 input {
+		height: 60px;
+	}
+
+	.commentContainer label {
+    font-size: 4em;
+    text-align: center;
+	}
+
+	.commentContainer{
+    	height: 240px;
+	}
+
+	.logoNsubmit{
+		width: 100%;
+	}
+
+	.buttonLogo{
+		display: none;
+	}
+
+	.submitBtn{
+		margin-top: 90px;
+		height: 150px;
+	}
+
 }
 
 
@@ -651,6 +753,7 @@ media queries
 	.header{
 		padding-top: 20px;
 		padding-bottom: 0px;
+
 	}
 	.formContainer{
 		transform: translateY(3%);
@@ -669,4 +772,5 @@ media queries
 		transform: translateY(-15%);
 	}*/
 }
+
 
