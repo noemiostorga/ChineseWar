@@ -677,6 +677,10 @@ media queries
 
 /*iphone6  portrait*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { 
+	.fa-check{
+		font-size: 3em;
+	}
+
 	.formContainer{
 		transform: translateY(-1%);
 	}
@@ -687,7 +691,7 @@ media queries
 	}
 
 	.info {
-		 bottom: 45px;
+		 bottom: 20px;
 		 height: 60px;
     	width: 60px;
 	}
@@ -772,5 +776,6 @@ media queries
 		transform: translateY(-15%);
 	}*/
 }
+
 
 
