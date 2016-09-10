@@ -8,6 +8,11 @@ body{
 	visibility: hidden;
 }
 
+.fa {
+    top: 5px;
+    position: relative;
+}
+
 /******************
 Container
 ****************/
@@ -299,6 +304,8 @@ form{
     height: 30px;
     background: rgb(160,255,221);
     border-radius: 5px;
+    position: relative;
+    bottom: 15px;
 }
 
 
