@@ -420,6 +420,16 @@ media queries
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 414px)and (orientation: portrait) { 
+	.formContainer{
+    	transform: translateY(-50%);
+    	min-height: 40%;
+    	width: 99%;
+    }
+
+    .header{
+    	font-size: 5em;
+    }
+
     .logo{
     	bottom: 80px;
     }
@@ -435,10 +445,7 @@ media queries
     	width: 100%;
     }
 
-    .formContainer{
-    	transform: translateY(-50%);
-    	min-height: 40%;
-    }
+
 }
 
 
