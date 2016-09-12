@@ -139,7 +139,10 @@ p{
 }
 
 
-
+/*social icons*/
+.Socialicons i {
+	text-align: center;
+}
 
 /***********
 Form 
@@ -150,6 +153,7 @@ Form
    display: none;
     width: 80%;
     margin: 0 auto;
+    min-height: 60%;
     background-image: linear-gradient(to bottom, #000 , #0d7865, #0d7078);
     opacity: 1;
     background-size: 100% 100%; 
