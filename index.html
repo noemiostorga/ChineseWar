@@ -5,6 +5,7 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+	<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -59,8 +60,14 @@
 </div> --> 
 
 <div class="formContainer">
-	<form action="https://formspree.io/your@email.com"
+	<form action="https://formspree.io/noemiostorga@gmail.com"
       method="POST">	
+
+
+     	 <div class="exit">  
+     	 	<i class="fa fa-times" aria-hidden="true"></i>
+     	 </div>
+
 		<div class="header">REQUEST INFORMATION</div>
 
 		<div class="banner">
@@ -68,18 +75,24 @@
 			<div class="infoContainer">
 
 				<div class="infoButton">
-					<input class="info" name="gameplay" id="gameplay"/>
+					<div class="info" data-type="gameplay" id="gameplay">
+						<i class="fa fa-check hidden" aria-hidden="true"></i>
+					</div>
 					<label for="gameplay" >GAMEPLAY</label>
 				</div>
 
 
 				<div class="infoButton">
-					<input class="info" id="placement"/>
+					<div class="info" id="placement" data-type="placement" >
+						<i class="fa fa-check hidden" aria-hidden="true"></i>
+					</div>
 					<label for="placement" >PLACEMENT</label>
 				</div>
 
 				<div class="infoButton">
-					<input class="info" id="other"/>
+					<div class="info" id="other" data-type="other" >
+						<i class="fa fa-check hidden" aria-hidden="true"></i>
+					</div>
 					<label for="other" >OTHER</label>
 				</div>
 
@@ -104,6 +117,8 @@
 					<label for="email"> EMAIL</label>
 					<input id="email" name="_replyto"/>
 				</div>
+ 
+				<input class="hidden-input hidden" name="interested-in" value="">
 
 			</div>
 		</div>
@@ -113,7 +128,7 @@
 
 			<div class="commentContainer">
 				<label>COMMENTS</label>
-				<textarea id="commentBox"></textarea>
+				<textarea id="commentBox" name="comments" maxlength="250" placeholder="Max lenght 250 characters"></textarea>
 			</div>
 
 			<div class="logoNsubmit">
@@ -126,8 +141,6 @@
 
 
 		
-		
-		
 
 
 	</form>
@@ -136,6 +149,7 @@
 
 
 
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src='main.js'></script>
 </body>
 </html>

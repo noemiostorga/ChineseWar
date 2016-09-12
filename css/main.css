@@ -4,6 +4,15 @@ body{
 	padding: 0px;
 }
 
+.hidden{
+	visibility: hidden;
+}
+
+.fa-check {
+    top: 5px;
+    position: relative;
+}
+
 /******************
 Container
 ****************/
@@ -89,7 +98,6 @@ Main images
 }
 
 .requestContainer{
-
 	width: 24%;
 	display: inline-block;
 	height: 100%;
@@ -188,9 +196,10 @@ form{
 */
 
 
-/*
+
 .formContainer{
-   /* height: 80%;
+   /* height: 80%;*/
+   display: none;
     width: 80%;
     margin: 0 auto;
     background-image: linear-gradient(to bottom, #000 , #0d7865, #0d7078);
@@ -209,7 +218,23 @@ form{
  	border-style: ridge;
  	font-family: 'Vollkorn', serif;
  	font-weight: bold;
- }*/
+ }
+
+
+.exit{
+    font-size: 2.5em;
+    /* background: blue; */
+    width: 5%;
+    text-align: center;
+    float: right;
+}
+
+.fa-times{
+	color: #EAC117;
+}
+
+
+
 
 .header{
 	text-align: center;
@@ -235,8 +260,8 @@ form{
 .banner{
 	background: rgba(3,40,30,.6);
 	width: 100%;
-	padding-top:10px;
-	padding-bottom: 10px;
+	padding-top:13px;
+
 }
 
 .banner input {
@@ -263,9 +288,9 @@ form{
 .infoButton label{
     padding-left: 5px;
     font-family: 'Vollkorn', serif;
-    font-size: 1.3em;
+    font-size: 1.7em;
     color: rgb(100,255,171);
-    top: 2px;
+    top: -7px;
     position: relative;
     border:none;
 }
@@ -292,8 +317,14 @@ form{
 
 .info{
 	display: inline-block;
-	width: 25%;
+    width: 30px;
+    height: 30px;
+    background: rgb(160,255,221);
+    border-radius: 5px;
+    position: relative;
+    bottom: 15px;
 }
+
 
 .info label{
 	display: block;
@@ -391,6 +422,16 @@ textarea{
 	
 }
 
+button{
+	outline: none;
+	position: relative;
+	transition:1s ease;
+}
+
+button:active{
+	top: 5px;
+}
+
 .buttonLogo{
     background: url("../images/logo.svg");
     height: 104px;
@@ -421,31 +462,52 @@ media queries
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 414px)and (orientation: portrait) { 
+	.formContainer{
+    	transform: translateY(-20%);
+    	min-height: 40%;
+    	width: 99%;
+    }
+
+    .header{
+    	font-size: 5em;
+
+    }
+
     .logo{
     	bottom: 80px;
     }
+
+    .info2{
+    	width: 100%;
+    }
+
+    .info2{
+    	font-size: 2.5em;
+    }
+
+    .lastName{
+    	padding: 0px;
+    }
+    .commentContainer{
+    	width: 100%;
+    }
+
+    .commentContainer label{
+    	font-size: 2.5em;
+    }
+
+
 }
 
 
 /*actual form */
 
-@media only screen and (min-width:400px) and (max-width:600px){
-		.submitBtn{
-			margin: -40px auto;
-		}
 
-    }
+@media screen and (min-width:400px) and (max-width: 793px)  {
+	.fa-check{
+		padding-left: 7px;
+	}
 
-@media only screen and (min-width:510px) and (max-width:600px){
-		.submitBtn{
-			margin: -30px auto;
-		}
-		
-    }
-  
-
-
-@media screen and (min-width:400px) and (max-width: 790px)  {
 	.header{
 		font-size: 1.7em;
 	}
@@ -462,15 +524,20 @@ media queries
 	.info2{
 		display: block;
 		width: 100%;
+		margin-top: 15px;
 	}
 	
 	.info2 input{
-		height: 18px;
+		height: 35px;
 	}
 
 	.info2 label{
 		text-align: center;
 		font-size: 1.3em;
+	}
+
+	.infoButon label{
+		font-size: 1.2em;
 	}
 
 	.lastName{
@@ -484,7 +551,9 @@ media queries
 	}
 
 	.submitBtn {
-	    height: 35px;
+	    height: 50px;
+    	/*top: 10px;
+    	margin: 25px auto;*/
 	}
 
 	.commentContainer{
@@ -493,14 +562,62 @@ media queries
 	
 	.commentContainer label{
 		font-size: 1.3em;
+
 	}
-	
-/*	.submitBtn{
-		margin: -25px auto;
-	}*/
+
+	.bottomInfoContainer{
+		margin: 5px auto;
+	}
 
 
 }
+
+
+
+@media only screen and (min-width:400px) and (max-width:600px){
+		.header{
+		font-size: 1.6em;
+	}
+		.submitBtn{
+			margin: -40px auto;
+		}
+		.commentContainer{
+			width: 100%;
+		}
+		.logoNsubmit{
+			width: 100%;
+		}
+		.buttonLogo{
+			visibility: hidden;
+		}
+		.commentContainer label{
+			text-align: center;
+		
+		}
+
+    }
+/*@media screen and (min-width:400px) and (max-width: 1440px){
+	.forncContainer{
+		transform: translate(100%);
+		font-size: 1.6em;
+	}
+
+} */
+
+
+
+@media only screen and (min-width:510px) and (max-width:600px){
+		.submitBtn{
+			margin: -30px auto;
+		}
+		
+    }
+  
+
+
+
+
+
 
 
 @media screen and (min-width:789px) and (max-width: 1136px)  {
@@ -508,19 +625,38 @@ media queries
 	.infoButton{
 		display: inline;
     	padding-right: 7%;
+
 	}
 
-/*iphone 6+ landscape*/
+}
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3)  and (orientation: landscape) { 
-	.header{
-		padding-top: 20px;
-		padding-bottom: 0px;
-	}
-	.formContainer{
-		transform: translateY(3%);
+
+
+
+/*iphone5 portrait*/
+
+/*@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+
+    .infoButton{
+		display: block;
+	    padding-right: 7%;
+	    text-align: left;
 	}
 }
+*/
+/*iphone 6+ landscape*/
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) { 
+	transform : translateY(1%);
+}
+
 
 /*iphone 6 landscape*/
 
@@ -532,25 +668,92 @@ media queries
 	.formContainer{
 		transform: translateY(3%);
 	}
+
 }
 
 /*iphone6  portrait*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { 
-	.formContainer{
-		transform: translateY(-150%);
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { 
+	.fa-check{
+		font-size: 3em;
 	}
+
+	.formContainer{
+		transform: translateY(-1%);
+	}
+	.header{
+		padding-top: 20px;
+		padding-bottom: 0px;
+		font-size: 3.9em;
+	}
+
+	.info {
+		 bottom: 20px;
+		 height: 60px;
+    	width: 60px;
+	}
+
+	.info label{
+		text-align: center;
+	}
+
+	.infoButton{	
+		display: block;
+	    padding-right: 7%;
+	    text-align: left;
+	}
+
+	.infoButton label{
+		font-size: 4em;
+	
+	}
+
+	.info2{
+		margin-top: 35px;
+	}
+
+	.info2 label {
+    	text-align: center;
+	}	
+
+	.info2 input {
+		height: 60px;
+	}
+
+	.commentContainer label {
+    font-size: 4em;
+    text-align: center;
+	}
+
+	.commentContainer{
+    	height: 240px;
+	}
+
+	.logoNsubmit{
+		width: 100%;
+	}
+
+	.buttonLogo{
+		display: none;
+	}
+
+	.submitBtn{
+		margin-top: 90px;
+		height: 150px;
+	}
+
 }
 
 
 
-}
 
-/*nexus 5x */
+
+/*nexus 5x landscape*/
 
 @media only screen and (min-device-width: 732px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
 	.header{
 		padding-top: 20px;
 		padding-bottom: 0px;
+
 	}
 	.formContainer{
 		transform: translateY(3%);
@@ -565,12 +768,17 @@ media queries
 		padding-top: 20px;
 		padding-bottom: 0px;
 	}
-	.formContainer{
+/*	.formContainer{
 		transform: translateY(-15%);
+<<<<<<< HEAD
 	}
 }*/
 
-label{
+/*label{
 	background-size: 100% 100%;
+	}
+*/
 }
+
+
 
