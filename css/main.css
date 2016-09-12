@@ -504,11 +504,20 @@ media queries
 
 
 @media screen and (min-width:400px) and (max-width: 793px)  {
+	.formContainer{
+		transform: translateY(3%);
+	}
+
 	.fa-check{
 		padding-left: 7px;
 	}
 
 	.header{
+		text-align: center;
+		color: #FFEF6C;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-weight: bold;
 		font-size: 1.7em;
 	}
 	
@@ -577,7 +586,12 @@ media queries
 @media only screen and (min-width:400px) and (max-width:600px){
 		.header{
 		font-size: 1.6em;
-	}
+		}
+
+		.infoInput input{
+			height: 25px;
+		}
+
 		.submitBtn{
 			margin: -40px auto;
 		}
@@ -592,8 +606,13 @@ media queries
 		}
 		.commentContainer label{
 			text-align: center;
-		
 		}
+
+		.bottomInfoContainer{
+			margin: -15px auto;
+		}
+
+
 
     }
 /*@media screen and (min-width:400px) and (max-width: 1440px){
