@@ -127,22 +127,39 @@ Main images
 /****************
 footer
 ************/
+footer{
+	width: 100%;
+	background: black;
+}
 
 p{
 	color: blue;
 	background: black;
 	padding:0px;
 	margin: 0px;
-	text-align: center;
-	color: rgb(12,94,61);
+	color: #FFD700;
 	padding-bottom: 5px;
+	text-align: center;
 }
 
 
 /*social icons*/
-.Socialicons i {
-	text-align: center;
+.Socialicons{
+	width: 100%;
+	float: right;
+	background: black;
+	color: gold;
 }
+
+.Socialicons i {
+	text-align: left;
+	font-size: 2em;
+	margin: 15px;
+}
+
+ /*footer media query*/
+
+
 
 /***********
 Form 
@@ -515,6 +532,8 @@ media queries
 	.bottomInfoContainer{
 		margin: 5px auto;
 	}
+
+	.
 
 
 }
