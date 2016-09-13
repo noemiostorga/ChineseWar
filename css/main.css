@@ -100,6 +100,8 @@ Main images
 	height: 100%;
 	float: center;
 	margin-left: 1%;
+	cursor: pointer;
+
 }
 
 .request{
@@ -107,6 +109,7 @@ Main images
 	height: 100%;
 	width: 100%;
 	background-size: 100% 100%;
+	cursor: pointer;
 }
 
 .tigerContainer{
@@ -129,31 +132,47 @@ footer
 ************/
 footer{
 	width: 100%;
-	background: black;
-	z-index: 0;
 	position: absolute;
+	bottom: 0px;
 }
 
+#footer{
+    width: 60%;
+    float: left;
+    display: inline;
+    position: absolute;
+    bottom: 0px;
+    padding-left: 20px;
+    /* background: red; */
+    font-family: 'Vollkorn', serif;
+}
+
+#footer p{
+	padding: 0px;
+	float: left;
+}
 
 /*social icons*/
 .Socialicons{
-	width: 100%;
+	width: 40%;
 	text-align: center;
 	background: black;
 	color: #EAC117;
+	display: inline;
+	float: right;
 }
 
 .Socialicons a {
     color: #EAC117;
-    margin: 15px;
     padding: 0px 10px;
     text-decoration: none;
+    float: right;
 }
 
 
 .Socialicons a i {
-	font-size: 3em;
-	margin: 15px;
+	font-size: 2em;
+	margin: 5px;
 }
 
 
@@ -419,12 +438,6 @@ button:active{
 media queries
 **************/
 
-@media screen and (min-device-width: 481px) and (max-device-width: 768px)and (orientation: portrait) { 
-    .logo{
-    	bottom: 55px;
-    }
-}
-
 @media screen and (min-device-width: 320px) and (max-device-width: 414px)and (orientation: portrait) { 
 	.Socialicons i {
 	    font-size: 5em;
@@ -470,6 +483,14 @@ media queries
 
 
 }
+
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px)and (orientation: portrait) { 
+    .logo{
+    	bottom: 55px;
+    }
+}
+
 
 
 /*actual form */
