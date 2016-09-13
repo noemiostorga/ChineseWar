@@ -632,7 +632,7 @@ media queries
 		padding-bottom: 0px;
 	}
 	.formContainer{
-		transform: translateY(3%);
+    	transform: translateY(6%);
 	}
 
 }
@@ -715,7 +715,6 @@ media queries
 
 
 
-
 /*nexus 5x landscape*/
 
 @media only screen and (min-device-width: 732px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
@@ -737,6 +736,14 @@ media queries
   		width: 100%;
   	}
 }
+
+/*iphon6 + landscape*/
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+	.formContainer{
+    	transform: translateY(6%);
+	}
+
+ }
 
 
 
