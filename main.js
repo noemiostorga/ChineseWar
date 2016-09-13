@@ -42,5 +42,5 @@ $(document).ready(function(){
 
 	var dateNow = new Date();
 	var intYear = dateNow.getFullYear();
-	document.getElementById("footer").innerHTML = "<p><b> Chinese War &trade; &nbsp;&nbsp; |  &nbsp;&nbsp; All Rights Reserved  | &nbsp;&nbsp;  GVI, LLC " + intYear  + "</b></p>";
+	document.getElementById("footer").innerHTML = "<p><b> Chinese War &trade; &nbsp;&nbsp; |  &nbsp;&nbsp; All Rights Reserved &nbsp;&nbsp | &nbsp;&nbsp;  GVI, LLC " + intYear  + "</b></p>";
 });
