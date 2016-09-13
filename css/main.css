@@ -130,7 +130,24 @@ footer
 footer{
 	width: 100%;
 	background: black;
+	z-index: 0;
+	position: absolute;
 }
+
+
+/*social icons*/
+.Socialicons{
+	width: 100%;
+	text-align: center;
+	background: black;
+	color: gold;
+}
+
+.Socialicons i {
+	font-size: 2em;
+	margin: 15px;
+}
+
 
 p{
 	color: blue;
@@ -141,22 +158,6 @@ p{
 	padding-bottom: 5px;
 	text-align: center;
 }
-
-
-/*social icons*/
-.Socialicons{
-	width: 100%;
-	float: right;
-	background: black;
-	color: gold;
-}
-
-.Socialicons i {
-	text-align: left;
-	font-size: 2em;
-	margin: 15px;
-}
-
  /*footer media query*/
 
 
@@ -460,7 +461,7 @@ media queries
 
 @media screen and (min-width:400px) and (max-width: 793px)  {
 	.formContainer{
-		transform: translateY(3%);
+		transform: translateY(12%);
 	}
 
 	.fa-check{
