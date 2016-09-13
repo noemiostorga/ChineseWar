@@ -279,12 +279,12 @@ Form
 }
 
 
-.infoInputContainer{
-	width: 90%;
-	margin: 25px auto;
-	
+.infoInputContainer {
+    width: 90%;
+    margin: 25px auto;
+    margin-bottom: 0px;
 }
-
+	
 .infoContainer input {
 	margin-left: 10px;
 	border: none;
@@ -364,7 +364,7 @@ Form
 }
 
 .bottomInfoContainer{
-	margin: 25px auto;
+	margin: 0px auto;
 	width: 90%;
 	min-height: 40px;
 }
@@ -417,7 +417,7 @@ button:active{
     background: url("../images/logo.svg");
     height: 104px;
     width: 100%;
-    margin: 45px auto 20px;
+    margin: 15px auto 20px;
     background-size: 100% 100%;
 }
 
