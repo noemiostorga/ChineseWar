@@ -38,4 +38,9 @@ $(document).ready(function(){
 	$('.exit').on('click', function(){
 		$('.formContainer').hide()
 	});
+
+
+	var dateNow = new Date();
+	var intYear = dateNow.getFullYear();
+	document.getElementById("footer").innerHTML = "<p> Chinese War &trade; &nbsp;&nbsp; |  &nbsp;&nbsp; All Rights Reserved  | &nbsp;&nbsp;  GVI, LLC " + intYear  + "</p>";
 });
