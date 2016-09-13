@@ -143,8 +143,16 @@ footer{
 	color: gold;
 }
 
-.Socialicons i {
-	font-size: 2em;
+.Socialicons a {
+    color: gold;
+    margin: 15px;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+
+.Socialicons a i {
+	font-size: 4em;
 	margin: 15px;
 }
 
@@ -418,8 +426,14 @@ media queries
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 414px)and (orientation: portrait) { 
+	.Socialicons i {
+	    font-size: 5em;
+	    margin: 15px;
+	    padding: 0px 60px;
+	}
+
 	.formContainer{
-    	transform: translateY(-20%);
+  	 	transform: translateY(-20%);
     	min-height: 40%;
     	width: 99%;
     }
@@ -451,6 +465,8 @@ media queries
     .commentContainer label{
     	font-size: 2.5em;
     }
+
+
 
 
 }
