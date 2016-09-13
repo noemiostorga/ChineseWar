@@ -156,7 +156,7 @@ footer{
 .Socialicons{
 	width: 40%;
 	text-align: center;
-	background: black;
+	background: transparent;
 	color: #EAC117;
 	display: inline;
 	float: right;
@@ -498,7 +498,7 @@ media queries
 
 @media screen and (min-width:400px) and (max-width: 793px)  {
 	.formContainer{
-		transform: translateY(12%);
+		transform: translateY(3%);
 	}
 
 	.fa-check{
