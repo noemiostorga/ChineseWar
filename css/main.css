@@ -140,11 +140,11 @@ footer{
 	width: 100%;
 	text-align: center;
 	background: black;
-	color: gold;
+	color: #EAC117;
 }
 
 .Socialicons a {
-    color: gold;
+    color: #EAC117;
     margin: 15px;
     padding: 0px 10px;
     text-decoration: none;
@@ -685,6 +685,7 @@ media queries
 		height: 60px;
 	}
 
+
 	.commentContainer label {
     font-size: 4em;
     text-align: center;
@@ -692,6 +693,7 @@ media queries
 
 	.commentContainer{
     	height: 240px;
+    	width: 100%;
 	}
 
 	.logoNsubmit{
@@ -706,6 +708,7 @@ media queries
 		margin-top: 90px;
 		height: 150px;
 	}
+
 
 }
 
@@ -724,8 +727,15 @@ media queries
 	.formContainer{
 		transform: translateY(3%);
 	}
+
+
 }
 
+
+@media only screen and (device-width: 768px) {
+  	textarea{
+  		width: 100%;
+  	}
 }
 
 
