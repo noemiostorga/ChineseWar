@@ -536,7 +536,7 @@ media queries
 
 
 
-@media only screen and (min-width:400px) and (max-width:600px){
+@media only screen and (min-width:400px) and (max-width:600px)and (device-aspect-ratio: 40/71)and (-webkit-device-pixel-ratio: 2){
 		.container{
 			background: url("../images/bg.png") no-repeat 52% center fixed; 
 			-webkit-background-size: cover;
@@ -559,6 +559,9 @@ media queries
 		}
 		.commentContainer{
 			width: 100%;
+		}
+		.logo {
+    		bottom: 80px; 
 		}
 		.logoNsubmit{
 			width: 100%;
@@ -597,11 +600,16 @@ media queries
 		    font-size: .5em;
 		    margin: 5px;
 		}
+
+		.Socialicons a i {
+		    font-size: 1em;
+		    padding: 5px 2px;
+		}
 }
 
 
 /* iphone5 */
-@media screen and (min-device-width: 320px) and (max-device-width: 414px)and (orientation: portrait) { 
+@media screen and (min-device-width: 320px) and (max-device-width: 414px)and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) { 
 	 	.container{
 			background: url("../images/bg.png") no-repeat 52% center fixed; 
 			-webkit-background-size: cover;
@@ -619,7 +627,8 @@ media queries
 	}
 
 	.formContainer{
-  	 	transform: translateY(-20%);
+  	 	/*transform: translateY(-20%);*/
+  	 	transform:scale(3);
     	min-height: 40%;
     	width: 99%;
     }
@@ -651,6 +660,20 @@ media queries
     .commentContainer label{
     	font-size: 2.5em;
     }
+
+
+	#footer {
+	    width: 100%;
+	    display: block;
+	    position: absolute;
+	    bottom: 0px;
+	    padding: 0px; 
+	    font-size: 12px;
+	}
+
+	#footer p {
+		float: none;
+	}
 
 }
 
