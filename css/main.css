@@ -167,13 +167,14 @@ footer{
 .Socialicons a {
     color: #EAC117;
     padding: 0px;
+    padding-right: 5px;
     text-decoration: none;
     float: right;
 }
 
 
 .Socialicons a i {
-	font-size: 2em;
+	font-size: 1.7em;
 	margin: 5px;
 }
 
@@ -442,6 +443,15 @@ media queries
 **************/
 
 /*actual form */
+@media screen and (max-width:400px){
+	.Socialicons{
+		padding-right: 35px;
+	}	
+	#footer{
+		padding-left: 35px;
+	}
+
+}
 
 @media only screen and (min-width:510px) and (max-width:600px){
 		.submitBtn{
@@ -539,6 +549,15 @@ media queries
 
 }
 
+/*footer*/
+@media screen and (min-width:401px) and (max-width:479px ){
+	#footer{
+		padding-left: 10px;
+	}
+	.Socialicons{
+		padding-right: 10px;
+	}
+}
 
 
 /*checkboxes*/
