@@ -1,8 +1,7 @@
 
 body{
 	margin:0px;
-	padding: 0px;
-	
+	padding: 0px;	
 }
 
 .hidden{
@@ -429,6 +428,7 @@ button:active{
 	margin: 0 auto;
 	padding: 0px;
 	border: none;
+	cursor: pointer;
 
 }
 
@@ -453,6 +453,7 @@ media queries
     	padding-right: 7%;
 
 	}
+
 
 }
 
@@ -535,8 +536,51 @@ media queries
 
 
 
+/*checkboxes*/
+@media screen and (min-width:1076px) {
+
+	.infoContainer {
+	    width: 70%;
+	    margin: 0 auto;
+	    text-align: center;
+
+	}
+}
+
+@media screen and (min-width:869px) and (max-width:1075px ) {
+
+	.infoContainer {
+	    width: 90%;
+
+	}
+}
+
+@media screen and (min-width:917px) and (max-width:1006px ) {
+
+	.infoContainer {
+	    width: 83%;
+
+	}
+}
+
+@media screen and (min-width:1007px) and (max-width:1075px ) {
+
+	.infoContainer {
+	    width: 75%;
+	
+	}
+}
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width:400px) and (max-width:600px)and (device-aspect-ratio: 40/71)and (-webkit-device-pixel-ratio: 2){
+		
 		.container{
 			background: url("../images/bg.png") no-repeat 52% center fixed; 
 			-webkit-background-size: cover;
