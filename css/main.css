@@ -141,7 +141,7 @@ footer{
     display: inline;
     position: absolute;
     bottom: 0px;
-    padding-left: 20px;
+    padding-left: 70px;
     /* background: red; */
     font-family: 'Vollkorn', serif;
 }
@@ -159,6 +159,8 @@ footer{
 	color: #EAC117;
 	display: inline;
 	float: right;
+    padding-right: 70px;
+
 }
 
 .Socialicons a {
@@ -181,6 +183,7 @@ p{
 	color: #FFD700;
 	padding-bottom: 5px;
 	text-align: center;
+
 }
  /*footer media query*/
 
@@ -390,6 +393,7 @@ textarea{
 	border-radius: 5px;
 	background: rgb(160,255,221);
 	border: none;
+	cursor: pointer;
 }
 
 
