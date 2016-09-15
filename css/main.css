@@ -705,9 +705,10 @@ media queries
 	}
 
 	.formContainer{
-  	 	transform:scale(3);
-    	max-height: 85%;
+		transform : translateY(50%);
+    	max-height: 95%;
     	width: 95%;
+    	margin: ;
     }
 
 	.header {
@@ -746,12 +747,17 @@ media queries
 	    margin: 0px auto;
 
 	}
-
+	
+	.infoInput{
+		width: 100%;
+	}
+	
     .info2{
     	width: 100%;
-    	margin-top: 5px;
+    	margin: 10px auto 0px auto;
     }
 
+	
 
     .info2 label {
 
@@ -767,10 +773,9 @@ media queries
     .lastName{
     	padding: 0px;
     }
-    .bottomInfoContainer {
-	    margin: -25px auto;
-	    /* width: 90%; */
-	    /* min-height: 40px; */
+	.bottomInfoContainer {
+	    margin: 0px auto;
+	    max-height: 100px;
 	}
 	.commentContainer {
     	height: 60px;
@@ -781,7 +786,7 @@ media queries
     }
 
 	textarea {
- 	   height: 100%;
+    	height: 25%;
 	}
 
 
@@ -877,7 +882,7 @@ media queries
 	}
 
 	.formContainer{
-		transform: translateY(-1%);
+		transform : translateY(10%);
 	}
 	.header{
 		padding-top: 20px;
@@ -908,7 +913,7 @@ media queries
 	}
 
 	.info2{
-		margin-top: 0px;
+		margin-top: 5px;
 	}
 
 	.info2 label {
@@ -926,21 +931,22 @@ media queries
 	}
 
 	.commentContainer{
-    	height: 240px;
+    	height: 100%;
     	width: 100%;
 	}
 
-	.logoNsubmit{
-		width: 100%;
+	.logoNsubmit {
+	    width: 100%;
+	    height: 60px;
 	}
 
 	.buttonLogo{
 		display: none;
 	}
 
-	.submitBtn{
-		margin-top: 90px;
-		height: 150px;
+	.submitBtn {
+    	margin-top: 10px;
+    	height: 50px;
 	}
 
 
