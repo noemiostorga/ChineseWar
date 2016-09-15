@@ -284,9 +284,8 @@ Form
 
 
 .infoInputContainer {
-    width: 90%;
-    margin: 25px auto;
-    margin-bottom: 0px;
+ 	width: 95%;
+	margin: 0px auto;
 }
 	
 .infoContainer input {
@@ -721,6 +720,12 @@ media queries
 	    position: relative;
 	    right: 5px;
 	}
+
+	.fa-check {
+    	top: 0px;
+	    position: relative;
+	    left: 3px;
+	}
 	
 	.infoButton label {
     	font-size: 1em;
@@ -910,7 +915,7 @@ media queries
 	}	
 
 	.info2 input {
-		height: 60px;
+		height: 30px;
 	}
 
 
