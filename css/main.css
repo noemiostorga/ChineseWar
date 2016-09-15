@@ -350,7 +350,9 @@ Form
 	border: none;
 }
 
-
+#email{
+	background: rgb(160,255,221);
+}
 
 
 .firstName{
@@ -678,14 +680,23 @@ media queries
 
 /* iphone5 */
 @media screen and (min-device-width: 320px) and (max-device-width: 414px)and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) { 
-	 	.container{
-			background: url("../images/bg.png") no-repeat 52% center fixed; 
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
-			background
-		}
+	 .container{
+		background: url("../images/bg.png") no-repeat 52% center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	.header {
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	    font-size: 1.3em;
+	}
+	.logo {
+    	bottom: 0px;
+    	top: 10px;
+	}
 
 
 	.Socialicons i {
@@ -695,39 +706,77 @@ media queries
 	}
 
 	.formContainer{
-  	 	/*transform: translateY(-20%);*/
   	 	transform:scale(3);
-    	min-height: 40%;
-    	width: 99%;
+    	max-height: 85%;
+    	width: 95%;
     }
 
-    .header{
-    	font-size: 5em;
-
-    }
-
+	.header {
+	    padding-top: 20px;
+	    /* padding-bottom: 0px; */
+	    font-size: 1.1em;
+	}
+	.exit {
+	    font-size: 1.5em;
+	    position: relative;
+	    right: 5px;
+	}
+	
+	.infoButton label {
+    	font-size: 1em;
+	}
+	
     .logo{
     	bottom: 80px;
     }
+	.info {
+	    height: 20px;
+	    width: 20px;
+	    position: relative;
+	    bottom: 8px;
+	}
+
+	.infoInputContainer {
+	    width: 95%;
+	    margin: 0px auto;
+
+	}
 
     .info2{
     	width: 100%;
+    	font-size: 2.5em;
+    	margin-top: 5px;
     }
 
-    .info2{
-    	font-size: 2.5em;
-    }
+
+    .info2 label {
+    	font-size: .7em;
+    	margin-bottom: -20px;
+	}
+
+	.info2 input {
+    	height: 30px;
+	}
 
     .lastName{
     	padding: 0px;
     }
-    .commentContainer{
-    	width: 100%;
-    }
+    .bottomInfoContainer {
+	    margin: -25px auto;
+	    /* width: 90%; */
+	    /* min-height: 40px; */
+	}
+	.commentContainer {
+    	height: 60px;
+	}
 
     .commentContainer label{
-    	font-size: 2.5em;
+    	font-size: 1em;
     }
+
+	textarea {
+ 	   height: 100%;
+	}
 
 
 	#footer {
@@ -743,8 +792,45 @@ media queries
 		float: none;
 	}
 
+	.Socialicons {
+   		padding-right: 0px; 
+    	width: 100%;
+    	margin: 15px auto;
+	}
+
+	.Socialicons a {
+		float: none;
+
+	}
+	
+	.Socialicons a i {
+       margin: 0px; 
+	}
+
+	.Socialicons i {
+     padding: 0px 0px; 
+	}
+
 }
 
+/*iphone 5 landscape*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) { 
+		
+	.mainAssets {
+	    height: 200px;
+	    width: 95%;
+	    position: absolute;
+	    margin: 0 auto;
+	    right: 0;
+	    left: 0;
+	}
+
+	.logo{
+		top: 25px;
+	}
+
+}
 
 @media screen and (min-device-width: 481px) and (max-device-width: 768px)and (orientation: portrait) { 
     .logo{
@@ -753,17 +839,21 @@ media queries
 }
 
 
-/*iphone 6+ landscape*/
 
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) { 
-	transform : translateY(1%);
-}
 
 
 /*iphone 6 landscape*/
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
+	.logoContainer {
+	    position: relative;
+	    top: 20px;
+	}
+
+	.mainAssets {
+	    height: 200px;
+	}
+
 	.header{
 		padding-top: 20px;
 		padding-bottom: 0px;
@@ -786,13 +876,14 @@ media queries
 	.header{
 		padding-top: 20px;
 		padding-bottom: 0px;
-		font-size: 3.9em;
+		font-size: 1.4em;
 	}
 
 	.info {
-		 bottom: 20px;
-		 height: 60px;
-    	width: 60px;
+	    height: 20px;
+	    width: 20px;
+	    position: relative;
+	   	bottom: 8px;
 	}
 
 	.info label{
@@ -806,7 +897,7 @@ media queries
 	}
 
 	.infoButton label{
-		font-size: 4em;
+		font-size: 1em;
 	
 	}
 
@@ -824,8 +915,8 @@ media queries
 
 
 	.commentContainer label {
-    font-size: 4em;
-    text-align: center;
+ 		font-size: 1em;
+    	text-align: center;
 	}
 
 	.commentContainer{
@@ -849,7 +940,12 @@ media queries
 
 }
 
+/*iphone 6+ landscape*/
 
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) { 
+	transform : translateY(1%);
+}
 
 
 /*nexus 5x landscape*/
