@@ -479,8 +479,11 @@ media queries
 		transform: translateY(3%);
 	}
 
-	.fa-check{
-		padding-left: 7px;
+	.fa-check {
+	    position: relative;
+	    left: 3px;
+	    top: 1px;
+	   
 	}
 
 	.header{
@@ -509,7 +512,7 @@ media queries
 	}
 
 	.infoButton label{
-		font-size: 1.3em;
+		sfont-size: 1.3em;
 	}
 
 	.info2{
@@ -536,9 +539,13 @@ media queries
 		padding-right: 0%;
 	}
 
-	
+	.logoNsubmit {
+	    width: 100%;
+	     display: inline; 
+	     float: none; 
+	}
 	.buttonLogo{
-		margin: 0px;
+		visibility: hidden;
 	}
 
 	.submitBtn {
@@ -549,15 +556,17 @@ media queries
 
 	.commentContainer{
 		height: 100px;
+		width: 100%;
 	}
 	
 	.commentContainer label{
 		font-size: 1.3em;
+		text-align: center;
 
 	}
 
-	.bottomInfoContainer{
-		margin: 5px auto;
+	.bottomInfoContainer {
+    	margin: -25px auto;
 	}
 
 }
