@@ -397,6 +397,7 @@ textarea{
 	background: rgb(160,255,221);
 	border: none;
 	cursor: pointer;
+	overflow: scroll;
 }
 
 
@@ -705,8 +706,8 @@ media queries
 	}
 
 	.formContainer{
-		transform : translateY(50%);
-    	max-height: 95%;
+		transform : translateY(15%);
+    	min-height: 95%;
     	width: 95%;
     	margin: ;
     }
@@ -743,13 +744,14 @@ media queries
 	}
 
 	.infoInputContainer {
-	    width: 95%;
+	    width: 90%;
 	    margin: 0px auto;
 
 	}
 	
-	.infoInput{
-		width: 100%;
+	.infoInput {
+    	width: 100%;
+    	margin: 0px auto;
 	}
 	
     .info2{
@@ -774,7 +776,7 @@ media queries
     	padding: 0px;
     }
 	.bottomInfoContainer {
-	    margin: 0px auto;
+	    margin: -20px auto;
 	    max-height: 100px;
 	}
 	.commentContainer {
@@ -870,7 +872,7 @@ media queries
 		padding-bottom: 0px;
 	}
 	.formContainer{
-    	transform: translateY(6%);
+  /*  	transform: translateY(6%);*/
 	}
 
 }
@@ -882,7 +884,7 @@ media queries
 	}
 
 	.formContainer{
-		transform : translateY(10%);
+/*		transform : translateY(15%);*/
 	}
 	.header{
 		padding-top: 20px;
@@ -985,7 +987,7 @@ media queries
 /*iphon6 + landscape*/
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
 	.formContainer{
-    	transform: translateY(6%);
+    	/*transform: translateY(6%);*/
 	}
 
  }
