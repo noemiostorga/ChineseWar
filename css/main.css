@@ -489,16 +489,27 @@ media queries
 		padding-top: 10px;
 		padding-bottom: 10px;
 		font-weight: bold;
-		font-size: 1.7em;
+		font-size: 1.6em;
 	}
 	
 	.infoInputContainer{
 		margin: 0px auto;
 	}
-	
+	.info {
+	    width: 20px;
+	    height: 20px;
+	    position: relative;
+	    bottom: 10px;
+	}
+
 	.infoButton{
 		display: block;
 		text-align: left;
+
+	}
+
+	.infoButton label{
+		font-size: 1.3em;
 	}
 
 	.info2{
@@ -508,7 +519,7 @@ media queries
 	}
 	
 	.info2 input{
-		height: 35px;
+		height: 20px;
 	}
 
 	.info2 label{
@@ -566,7 +577,7 @@ media queries
 @media screen and (min-width:1076px) {
 
 	.infoContainer {
-	    width: 70%;
+	    width: 71%;
 	    margin: 0 auto;
 	    text-align: center;
 
@@ -576,7 +587,7 @@ media queries
 @media screen and (min-width:869px) and (max-width:1075px ) {
 
 	.infoContainer {
-	    width: 90%;
+	    width: 91%;
 
 	}
 }
@@ -584,7 +595,7 @@ media queries
 @media screen and (min-width:917px) and (max-width:1006px ) {
 
 	.infoContainer {
-	    width: 83%;
+	    width: 84%;
 
 	}
 }
@@ -592,7 +603,7 @@ media queries
 @media screen and (min-width:1007px) and (max-width:1075px ) {
 
 	.infoContainer {
-	    width: 75%;
+	    width: 76%;
 	
 	}
 }
