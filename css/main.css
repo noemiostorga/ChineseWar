@@ -707,9 +707,8 @@ media queries
 
 	.formContainer{
 		transform : translateY(15%);
-    	min-height: 95%;
+    	min-height: 100%;
     	width: 95%;
-    	margin: ;
     }
 
 	.header {
@@ -748,15 +747,21 @@ media queries
 	    margin: 0px auto;
 
 	}
+
 	
 	.infoInput {
     	width: 100%;
     	margin: 0px auto;
 	}
+
+	.infoInput input {
+		margin-left: 0px;
+		margin : 0 auto;
+	}
 	
     .info2{
     	width: 100%;
-    	margin: 10px auto 0px auto;
+    	margin: 0px auto;
     }
 
 	
@@ -912,6 +917,15 @@ media queries
 	.infoButton label{
 		font-size: 1em;
 	
+	}
+
+	.infoContainer input {
+		margin-left: 0px;
+		margin: 0px auto;
+	}
+
+	.infoInput input {
+		margin : 0px auto;
 	}
 
 	.info2{
