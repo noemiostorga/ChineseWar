@@ -749,18 +749,19 @@ media queries
 
     .info2{
     	width: 100%;
-    	font-size: 2.5em;
     	margin-top: 5px;
     }
 
 
     .info2 label {
-    	font-size: .7em;
-    	margin-bottom: -20px;
+
+    	font-size: 1em;
+    	margin-bottom: 0px;
 	}
 
 	.info2 input {
-    	height: 30px;
+    	height: 20px;
+    	width: 100%;
 	}
 
     .lastName{
@@ -907,7 +908,7 @@ media queries
 	}
 
 	.info2{
-		margin-top: 35px;
+		margin-top: 0px;
 	}
 
 	.info2 label {
@@ -915,7 +916,7 @@ media queries
 	}	
 
 	.info2 input {
-		height: 30px;
+		height: 20px;
 	}
 
 
