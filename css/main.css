@@ -1076,7 +1076,7 @@ media queries
 	}
 
 	.formContainer {
-    	transform: translateY(7%);
+    	transform: translateY(3%);
     	max-height: 95%;
 	}
 	
@@ -1088,6 +1088,63 @@ media queries
 		font-size: 1em;
 	}
 
+	.info2 {
+	    width: 28%;
+	    display: inline-block;
+	    margin: 5px 10px;
+	}
+
+	.info2 input{
+		height: 15px;
+	}
+
+	.info2 label{
+		font-size: 1em;
+	}
+
+	.infoInput {
+	    width: 100%;
+	    margin: 5px auto;
+	    height: 80px;
+	}
+
+
+	.infoButton label {
+		font-size: 1em;
+	}
+
+	.bottomInfoContainer{
+		width: 95%;
+	}
+	
+	.commentContainer{
+		width: 60%;
+		display: inline;
+	}
+	
+	.commentContainer label{
+		text-align: left;
+		font-size: 1em;
+	}
+
+	.logoNsubmit{
+		width: 40%;
+		float: right;
+	}
+
+	.buttonLogo{
+		visibility: visible;
+		height: 55px;
+    	margin: 10px auto;
+
+	}
+
+	.submitBtn {
+		height: 40px;
+		margin: 0px auto;
+	}
+
+
 }
 
 
@@ -1095,27 +1152,91 @@ media queries
 /*iphone 6+ landscape*/
 
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) { 
-	transform : translateY(1%);
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 3) { 
+	.formContainer {
+	    transform: translateY(7%);
+	    max-height: 90%;
+	    width: 90%;
+	}
+
+	.exit{
+		position: relative;
+    	right: 10px;
+
+	}
+	
+	.infoContainer {
+	    width: 81%;
+	}
+	
+	.infoInputContainer{
+		width: 100%;
+	}
+
+	.infoButton {
+	    display: inline;
+	    /* text-align: left; */
+	}
+	
+	.info2 {
+	    width: 28%;
+	    display: inline-block;
+	    margin: 5px 10px;
+	}
+
+	.info2 input{
+		height: 15px;
+	}
+
+	.info2 label{
+		font-size: 1em;
+	}
+
+	.infoInput {
+	    width: 100%;
+	    margin: 5px auto;
+	    height: 80px;
+	}
+
+
+	.infoButton label {
+		font-size: 1em;
+	}
+
+	.bottomInfoContainer{
+		width: 95%;
+	}
+	
+	.commentContainer{
+		width: 60%;
+		display: inline;
+	}
+	
+	.commentContainer label{
+		text-align: left;
+		font-size: 1em;
+	}
+
+	.logoNsubmit{
+		width: 40%;
+		float: right;
+	}
+
+	.buttonLogo{
+		visibility: visible;
+		height: 55px;
+    	margin: 10px auto;
+
+	}
+
+	.submitBtn {
+		height: 40px;
+		margin: 0px auto;
+	}
+
 }
 
 
 /*nexus 5x landscape*/
 
-@media only screen and (min-device-width: 732px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
-	.header{
-		padding-top: 20px;
-		padding-bottom: 0px;
-
-	}
-
-
-}
-
-
-@media only screen and (device-width: 768px) {
-  	textarea{
-  		width: 100%;
-  	}
-}
 
