@@ -1236,7 +1236,64 @@ media queries
 
 }
 
+/*galaxy S5 portrait **/
 
-/*nexus 5x landscape*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+			
+	.formContainer {
+        transform: translateY(-35%);
+	    max-height: 95%;
+	    width: 95%;
+	    margin: 0px auto;
+	}
+	
+	.infoButton {
+    	display: block;
+	}
+
+	.infoButton label{
+		font-size: 1em;
+	}
+
+   	.info2{
+    	width: 100%;
+    	margin: 0px auto;
+    }
+
+
+    .info2 label {
+
+    	font-size: 1em;
+    	margin-bottom: 0px;
+	}
+
+	.info2 input {
+    	height: 20px;
+    	width: 100%;
+	}
+
+    .lastName{
+    	padding: 0px;
+    }
+	.bottomInfoContainer {
+	    margin: -20px auto;
+	    max-height: 100px;
+	}
+	.commentContainer {
+    	height: 60px;
+	}
+
+    .commentContainer label{
+    	font-size: 1em;
+    }
+
+	textarea {
+    	height: 25%;
+	}
+
+
+
+}
+
 
 
