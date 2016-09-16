@@ -855,7 +855,8 @@ media queries
 /*iphone 5 landscape*/
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) { 
-	
+		
+
 	.header{
 		padding: 10px auto;
 	}
@@ -1057,6 +1058,9 @@ media queries
 /*iphone 6 landscape*/
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
+	
+
+
 	.logoContainer {
 	    position: relative;
 	    top: 20px;
@@ -1069,6 +1073,19 @@ media queries
 	.header{
 		padding-top: 20px;
 		padding-bottom: 0px;
+	}
+
+	.formContainer {
+    	transform: translateY(7%);
+    	max-height: 95%;
+	}
+	
+	.infoButton {
+    	display: inline;
+	}
+
+	.infoButton label{
+		font-size: 1em;
 	}
 
 }
