@@ -370,7 +370,7 @@ Form
 
 .bottomInfoContainer{
 	margin: 0px auto;
-	width: 90%;
+	width: 95%;
 	min-height: 40px;
 }
 
@@ -397,7 +397,6 @@ textarea{
 	background: rgb(160,255,221);
 	border: none;
 	cursor: pointer;
-	overflow: scroll;
 }
 
 
@@ -477,7 +476,7 @@ media queries
 @media screen and (min-width:400px) and (max-width: 793px)  {
 	.formContainer{
 		transform: translateY(3%);
-		min-height: 92%;
+		max-height: 100%;
 	}
 
 	.fa-check {
@@ -550,13 +549,12 @@ media queries
 	}
 
 	.submitBtn {
-	    height: 50px;
-	    margin: 0 auto;
-    	/*top: 10px;
-    	margin: 25px auto;*/
+    	height: 40px;
+    	margin: 0px;
 	}
 
 	.commentContainer{
+		margin-top: -15px;
 		height: 100px;
 		width: 100%;
 	}
@@ -568,7 +566,7 @@ media queries
 	}
 
 	.bottomInfoContainer {
-    	margin: -25px auto;
+    	margin: 0px auto;
 	}
 
 }
@@ -881,6 +879,12 @@ media queries
 	    max-height: 90%;
 	    width: 90%;
 	}
+
+	.exit{
+		position: relative;
+    	right: 10px;
+
+	}
 	
 	.infoContainer {
 	    width: 81%;
@@ -960,31 +964,6 @@ media queries
 }
 
 
-
-
-
-/*iphone 6 landscape*/
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
-	.logoContainer {
-	    position: relative;
-	    top: 20px;
-	}
-
-	.mainAssets {
-	    height: 200px;
-	}
-
-	.header{
-		padding-top: 20px;
-		padding-bottom: 0px;
-	}
-	.formContainer{
-  /*  	transform: translateY(6%);*/
-	}
-
-}
-
 /*iphone6  portrait*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { 
 	.fa-check{
@@ -992,8 +971,10 @@ media queries
 	}
 
 	.formContainer{
-/*		transform : translateY(15%);*/
-	}
+		transform : translateY(15%);
+    	max-height: 105%;
+    	width: 95%;
+    }
 	.header{
 		padding-top: 20px;
 		padding-bottom: 0px;
@@ -1072,6 +1053,28 @@ media queries
 
 }
 
+
+/*iphone 6 landscape*/
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
+	.logoContainer {
+	    position: relative;
+	    top: 20px;
+	}
+
+	.mainAssets {
+	    height: 200px;
+	}
+
+	.header{
+		padding-top: 20px;
+		padding-bottom: 0px;
+	}
+
+}
+
+
+
 /*iphone 6+ landscape*/
 
 
@@ -1088,9 +1091,6 @@ media queries
 		padding-bottom: 0px;
 
 	}
-	.formContainer{
-		transform: translateY(3%);
-	}
 
 
 }
@@ -1102,40 +1102,3 @@ media queries
   	}
 }
 
-/*iphon6 + landscape*/
-@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-	.formContainer{
-    	/*transform: translateY(6%);*/
-	}
-
- }
-
-
-/*******************
-NEW MEDIA QUERIES
-*******************/
-/*
-@media only screen and (min-width: 320px) and (max-width: 568px) {
-	.logo{
-		background: url("../images/logo.svg") no-repeat;
-	    background-size: 100% 100%;
-	    height: 65%;
-	    width: 100%;
-	    position: relative;
-	    z-index: 2;
-	}
-
-
-}*/
-
-/*@media only screen and (min-width: 320px) and (max-height: 568px){
-		.logo{
-		background: url("../images/logo.svg") no-repeat;
-	    background-size: 100% 100%;
-	    height: 65%;
-	    width: 100%;
-	    position: relative;
-	    z-index: 2;
-	}
-
-}*/
