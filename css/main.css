@@ -899,14 +899,48 @@ media queries
 	    margin: 5px 10px;
 	}
 
+	.info2 input{
+		height: 15px;
+	}
+
+	.infoInput {
+	    width: 100%;
+	    margin: 5px auto;
+	    height: 80px;
+	}
+
 
 	.infoButton label {
 		font-size: 1em;
 	}
 
+	.bottomInfoContainer{
+		width: 95%;
+	}
 	
+	.commentContainer{
+		width: 60%;
+		display: inline;
+	}
+	
+	.commentContainer label{
+		text-align: left;
+	}
 
+	.logoNsubmit{
+		width: 40%;
+		float: right;
+	}
 
+	.buttonLogo{
+		visibility: visible;
+		height: 40px;
+	}
+
+	.submitBtn {
+		height: 40px;
+		margin: 10px auto;
+	}
 
 }
 
