@@ -941,8 +941,9 @@ media queries
 
 	.buttonLogo{
 		visibility: visible;
-		height: 40px;
-		margin: 20px auto;
+		height: 55px;
+    	margin: 10px auto;
+
 	}
 
 	.submitBtn {
