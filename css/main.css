@@ -883,15 +883,20 @@ media queries
 	.infoContainer {
 	    width: 81%;
 	}
+	
+	.infoInputContainer{
+		width: 100%;
+	}
 
 	.infoButton {
 	    display: inline;
 	    /* text-align: left; */
 	}
 	
-	.info2{
-		width: 30%;
-		display: inline-block;
+	.info2 {
+	    width: 28%;
+	    display: inline-block;
+	    margin: 5px 10px;
 	}
 
 
