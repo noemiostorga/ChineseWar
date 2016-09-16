@@ -858,7 +858,9 @@ media queries
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) { 
 	
-
+	.header{
+		padding: 10px auto;
+	}
 
 	.mainAssets {
 	    height: 200px;
@@ -903,6 +905,10 @@ media queries
 		height: 15px;
 	}
 
+	.info2 label{
+		font-size: 1em;
+	}
+
 	.infoInput {
 	    width: 100%;
 	    margin: 5px auto;
@@ -925,6 +931,7 @@ media queries
 	
 	.commentContainer label{
 		text-align: left;
+		font-size: 1em;
 	}
 
 	.logoNsubmit{
@@ -935,11 +942,12 @@ media queries
 	.buttonLogo{
 		visibility: visible;
 		height: 40px;
+		margin: 20px auto;
 	}
 
 	.submitBtn {
 		height: 40px;
-		margin: 10px auto;
+		margin: 0px auto;
 	}
 
 }
