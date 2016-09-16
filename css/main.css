@@ -477,6 +477,7 @@ media queries
 @media screen and (min-width:400px) and (max-width: 793px)  {
 	.formContainer{
 		transform: translateY(3%);
+		min-height: 92%;
 	}
 
 	.fa-check {
@@ -550,6 +551,7 @@ media queries
 
 	.submitBtn {
 	    height: 50px;
+	    margin: 0 auto;
     	/*top: 10px;
     	margin: 25px auto;*/
 	}
@@ -855,7 +857,9 @@ media queries
 /*iphone 5 landscape*/
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) { 
-		
+	
+
+
 	.mainAssets {
 	    height: 200px;
 	    width: 95%;
@@ -868,6 +872,36 @@ media queries
 	.logo{
 		top: 25px;
 	}
+
+
+	.formContainer {
+	    transform: translateY(7%);
+	    max-height: 90%;
+	    width: 90%;
+	}
+	
+	.infoContainer {
+	    width: 81%;
+	}
+
+	.infoButton {
+	    display: inline;
+	    /* text-align: left; */
+	}
+	
+	.info2{
+		width: 30%;
+		display: inline-block;
+	}
+
+
+	.infoButton label {
+		font-size: 1em;
+	}
+
+	
+
+
 
 }
 
