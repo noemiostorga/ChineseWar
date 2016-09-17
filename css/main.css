@@ -397,6 +397,7 @@ textarea{
 	background: rgb(160,255,221);
 	border: none;
 	cursor: pointer;
+	resize: none;
 }
 
 
@@ -698,31 +699,113 @@ media queries
 }
 
 
-/* iphone5 */
-@media screen and (min-device-width: 320px) and (max-device-width: 414px)and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) { 
-	 .container{
-		background: url("../images/bg.png") no-repeat 52% center fixed; 
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-
-	.header {
-	    padding-top: 10px;
-	    padding-bottom: 10px;
-	    font-size: 1.3em;
-	}
-	.logo {
-    	bottom: 0px;
-    	top: 10px;
-	}
 
 
-	.Socialicons i {
-	    font-size: 2em;
-	    margin: 15px;
-	    padding: 0px 60px;
+
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px)and (orientation: portrait) { 
+    .logo{
+    	bottom: 55px;
+    }
+}
+
+
+
+/*iphone 6 landscape*/
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
+	
+
+
+	.logoContainer {
+	    position: relative;
+	    top: 20px;
+	}
+
+	.mainAssets {
+	    height: 200px;
+	}
+
+	.header{
+		padding-top: 20px;
+		padding-bottom: 0px;
+	}
+
+	.formContainer {
+    	max-height: 95%;
+	}
+	
+	.infoButton {
+    	display: inline;
+	}
+
+	.infoButton label{
+		font-size: 1em;
+	}
+
+	.info2 {
+	    width: 28%;
+	    display: inline-block;
+	    margin: 5px 10px;
+	}
+
+	.info2 input{
+		height: 15px;
+	}
+
+	.info2 label{
+		font-size: 1em;
+	}
+
+	.infoInput {
+	    width: 100%;
+	    margin: 5px auto;
+	    height: 80px;
+	}
+
+
+	.infoButton label {
+		font-size: 1em;
+	}
+
+	.bottomInfoContainer{
+		width: 95%;
+	}
+	
+	.commentContainer{
+		width: 60%;
+		display: inline;
+	}
+	
+	.commentContainer label{
+		text-align: left;
+		font-size: 1em;
+	}
+
+	.logoNsubmit{
+		width: 40%;
+		float: right;
+	}
+
+	.buttonLogo{
+		visibility: visible;
+		height: 55px;
+    	margin: 10px auto;
+
+	}
+
+	.submitBtn {
+		height: 40px;
+		margin: 0px auto;
+	}
+
+
+}
+
+/*iphone6  portrait*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { 
+	.fa-check{
+		font-size: 3em;
 	}
 
 	.formContainer{
@@ -782,7 +865,7 @@ media queries
 	
     .info2{
     	width: 100%;
-    	margin: 0px auto;
+    	margin-top: 5px;
     }
 
 	
@@ -796,6 +879,9 @@ media queries
 	.info2 input {
     	height: 20px;
     	width: 100%;
+    	margin: 0;
+    	padding: 0; 
+    	border: 0;
 	}
 
     .lastName{
@@ -814,43 +900,21 @@ media queries
     }
 
 	textarea {
-    	height: 25%;
+    	height: 50px;
 	}
 
-
-	#footer {
-	    width: 100%;
-	    display: block;
-	    position: absolute;
-	    bottom: 0px;
-	    padding: 0px; 
-	    font-size: 12px;
+	.logoNsubmit{
+		height: 80px;
 	}
 
-	#footer p {
-		float: none;
+	.submitBtn{
+		margin-top: 30px;
 	}
 
-	.Socialicons {
-   		padding-right: 0px; 
-    	width: 100%;
-    	margin: 15px auto;
-	}
-
-	.Socialicons a {
-		float: none;
-
-	}
-	
-	.Socialicons a i {
-       margin: 0px; 
-	}
-
-	.Socialicons i {
-     padding: 0px 0px; 
-	}
 
 }
+
+
 
 /*iphone 5 landscape*/
 
@@ -958,17 +1022,33 @@ media queries
 
 }
 
-@media screen and (min-device-width: 481px) and (max-device-width: 768px)and (orientation: portrait) { 
-    .logo{
-    	bottom: 55px;
-    }
-}
 
 
-/*iphone6  portrait*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { 
-	.fa-check{
-		font-size: 3em;
+/* iphone5 */
+@media screen and (min-device-width: 320px) and (max-device-width: 414px)and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) { 
+	 .container{
+		background: url("../images/bg.png") no-repeat 52% center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	.header {
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	    font-size: 1.3em;
+	}
+	.logo {
+    	bottom: 0px;
+    	top: 10px;
+	}
+
+
+	.Socialicons i {
+	    font-size: 2em;
+	    margin: 15px;
+	    padding: 0px 60px;
 	}
 
 	.formContainer{
@@ -976,174 +1056,136 @@ media queries
     	max-height: 105%;
     	width: 95%;
     }
-	.header{
-		padding-top: 20px;
-		padding-bottom: 0px;
-		font-size: 1.4em;
+
+	.header {
+	    padding-top: 20px;
+	    /* padding-bottom: 0px; */
+	    font-size: 1.1em;
+	}
+	.exit {
+	    font-size: 1.5em;
+	    position: relative;
+	    right: 5px;
 	}
 
+	.fa-check {
+    	top: 0px;
+	    position: relative;
+	    left: 3px;
+	}
+	
+	.infoButton label {
+    	font-size: 1em;
+	}
+	
+    .logo{
+    	bottom: 80px;
+    }
 	.info {
 	    height: 20px;
 	    width: 20px;
 	    position: relative;
-	   	bottom: 8px;
+	    bottom: 8px;
 	}
 
-	.info label{
-		text-align: center;
+	.infoInputContainer {
+	    width: 90%;
+	    margin: 0px auto;
+
 	}
 
-	.infoButton{	
-		display: block;
-	    padding-right: 7%;
-	    text-align: left;
-	}
-
-	.infoButton label{
-		font-size: 1em;
 	
-	}
-
-	.infoContainer input {
-		margin-left: 0px;
-		margin: 0px auto;
+	.infoInput {
+    	width: 100%;
+    	margin: 0px auto;
 	}
 
 	.infoInput input {
-		margin : 0px auto;
-		width: 95%;
+		width: 100%;
+		margin-left: 0px;
+		margin : 0 auto;
 	}
+	
+    .info2{
+    	width: 100%;
+    	margin-top: 5px;
+    }
 
-	.info2{
-		margin-top: 5px;
+	
+
+    .info2 label {
+
+    	font-size: 1em;
+    	margin-bottom: 0px;
 	}
-
-	.info2 label {
-    	text-align: center;
-	}	
 
 	.info2 input {
-		height: 20px;
-	}
-
-
-	.commentContainer label {
- 		font-size: 1em;
-    	text-align: center;
-	}
-
-	.commentContainer{
-    	height: 100%;
+    	height: 20px;
     	width: 100%;
+    	margin: 0;
+    	padding: 0; 
+    	border: 0;
 	}
 
-	.logoNsubmit {
-	    width: 100%;
-	    height: 60px;
+    .lastName{
+    	padding: 0px;
+    }
+	.bottomInfoContainer {
+	    margin: -20px auto;
+	    max-height: 100px;
+	}
+	.commentContainer {
+    	height: 60px;
 	}
 
-	.buttonLogo{
-		display: none;
-	}
+    .commentContainer label{
+    	font-size: 1em;
+    }
 
-	.submitBtn {
-    	margin-top: 10px;
+	textarea {
     	height: 50px;
 	}
 
-
-}
-
-
-/*iphone 6 landscape*/
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
-	
-
-
-	.logoContainer {
-	    position: relative;
-	    top: 20px;
-	}
-
-	.mainAssets {
-	    height: 200px;
-	}
-
-	.header{
-		padding-top: 20px;
-		padding-bottom: 0px;
-	}
-
-	.formContainer {
-    	transform: translateY(3%);
-    	max-height: 95%;
-	}
-	
-	.infoButton {
-    	display: inline;
-	}
-
-	.infoButton label{
-		font-size: 1em;
-	}
-
-	.info2 {
-	    width: 28%;
-	    display: inline-block;
-	    margin: 5px 10px;
-	}
-
-	.info2 input{
-		height: 15px;
-	}
-
-	.info2 label{
-		font-size: 1em;
-	}
-
-	.infoInput {
-	    width: 100%;
-	    margin: 5px auto;
-	    height: 80px;
-	}
-
-
-	.infoButton label {
-		font-size: 1em;
-	}
-
-	.bottomInfoContainer{
-		width: 95%;
-	}
-	
-	.commentContainer{
-		width: 60%;
-		display: inline;
-	}
-	
-	.commentContainer label{
-		text-align: left;
-		font-size: 1em;
-	}
-
 	.logoNsubmit{
-		width: 40%;
-		float: right;
+		height: 80px;
 	}
 
-	.buttonLogo{
-		visibility: visible;
-		height: 55px;
-    	margin: 10px auto;
-
+	.submitBtn{
+		margin-top: 30px;
 	}
 
-	.submitBtn {
-		height: 40px;
-		margin: 0px auto;
+
+	#footer {
+	    width: 100%;
+	    display: block;
+	    position: absolute;
+	    bottom: 0px;
+	    padding: 0px; 
+	    font-size: 12px;
 	}
 
+	#footer p {
+		float: none;
+	}
+
+	.Socialicons {
+   		padding-right: 0px; 
+    	width: 100%;
+    	margin: 15px auto;
+	}
+
+	.Socialicons a {
+		float: none;
+
+	}
+	
+	.Socialicons a i {
+       margin: 0px; 
+	}
+
+	.Socialicons i {
+     padding: 0px 0px; 
+	}
 
 }
 
@@ -1296,11 +1338,70 @@ media queries
     	height: 50px;
 	}
 
-
-
-
-
 }
+
+/*nexus 5x portrait **/
+
+/*@media only screen and (min-width: 412px)and (max-width: 732px) (orientation: portrait)and (-webkit-min-device-pixel-ratio: 3.0) {
+	.formContainer {
+	    transform: translateY(3%);
+	    min-height: 70%;
+	    width: 95%;
+	    margin: 0px auto;
+	}
+	
+	.infoButton {
+    	display: block;
+	}
+
+	.infoButton label{
+		font-size: 1em;
+	}
+
+   	.info2{
+    	width: 100%;
+    	margin-top: 20px;
+    }
+
+
+    .info2 label {
+
+    	font-size: 1em;
+    	margin-bottom: 0px;
+	}
+
+	.info2 input {
+    	height: 20px;
+    	width: 100%;
+	}
+
+    .lastName{
+    	padding: 0px;
+    }
+	.bottomInfoContainer {
+    	margin: 15px auto;
+    	width: 95%;
+    	max-height: 220px;
+	}
+	.commentContainer {
+    	height: 60px;
+	}
+
+    .commentContainer label{
+    	font-size: 1em;
+    }
+
+	textarea {
+    	height: 115px;
+	}
+
+	.submitBtn {
+    	margin-top: 45px;
+    	height: 50px;
+	}
+}
+*/
+
 
 
 
