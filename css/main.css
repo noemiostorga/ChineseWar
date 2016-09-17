@@ -1241,8 +1241,8 @@ media queries
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
 			
 	.formContainer {
-        transform: translateY(-35%);
-	    max-height: 95%;
+	    transform: translateY(-15%);
+	    min-height: 70%;
 	    width: 95%;
 	    margin: 0px auto;
 	}
@@ -1290,6 +1290,13 @@ media queries
 	textarea {
     	height: 100%;
 	}
+
+	.submitBtn {
+    	margin-top: 45px;
+    	height: 50px;
+	}
+
+
 
 
 
